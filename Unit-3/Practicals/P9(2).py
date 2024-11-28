@@ -1,0 +1,10 @@
+from P9 import student
+s=student()
+s.setid(100)
+s.setname("Darshan")
+s.setaddress('Bareja')
+s.setmarks(44)
+print("Student id:",s.getid())
+print("student name:",s.getname())
+print("student address:",s.getaddress())
+print("student marks:",s.getmarks())
